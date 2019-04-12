@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+#naslov{
+    float: right;
+}
+
+#bio {
+
+    text-indent: 15px;
+    color: white;
+}
+
+a:hover {
+    background-color: wheat;
+    text-decoration: none;
+    color: black;
+}
+
+#ja {
+    box-shadow: 8px 10px 10px;
+    height: 200px;
+    float: right;
+}
+
+ul {
+    list-style-image: none;
+}
+#omeni{
+
+}
