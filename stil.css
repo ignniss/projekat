@@ -1,15 +1,22 @@
+body {
+    background-image: url(./Slike/back.png);
+    background-repeat: repeat;
+    color: white;
+}
+
+.row {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h1 {
     text-align: center;
     color: white;
 }
-#naslov{
-    float: right;
-}
 
 #bio {
-
     text-indent: 15px;
     color: white;
+    padding: 20px;
 }
 
 a:hover {
@@ -18,15 +25,66 @@ a:hover {
     color: black;
 }
 
+a, a:visited {
+    color: black;
+}
+
 #ja {
-    box-shadow: 8px 10px 10px;
+    box-shadow: 10px 10px 10px black;
     height: 200px;
     float: right;
 }
 
-ul {
-    list-style-image: none;
+#omeni, #kontakt {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 10px 10px 10px black;
 }
-#omeni{
 
+#logo {
+    float: left;
+    width: 30px;
+    height: 26px;
+}
+
+#crv, #zel, #pla {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    animation-name: animacija;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#crv {
+    background-color: red;
+}
+
+#zel {
+    background-color: green;
+    animation-delay: -.67s;
+}
+
+#pla {
+    background-color: blue;
+    animation-delay: -1.34s;
+}
+
+@keyframes animacija {
+    0%, 100% {
+        top: 0px;
+        left: 15px
+    }
+    33% {
+        top: 26px;
+        left: 30px
+    }
+    67% {
+        top: 26px;
+        left: 0px
+    }
+}
+
+.btn {
+    margin: 20px;
 }
