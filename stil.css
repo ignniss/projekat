@@ -20,7 +20,7 @@ h1 {
 }
 
 a:hover {
-    background-color: wheat;
+    
     text-decoration: none;
     color: black;
 }
@@ -88,7 +88,16 @@ a, a:visited {
 .btn {
     margin: 20px;
 }
-th, td{
+
+th, td {
     color: black;
     text-align: center;
+}
+
+caption {
+    color: black;
+    font-weight: bold;
+}
+.logomuzika{
+    width: 200px;
 }
