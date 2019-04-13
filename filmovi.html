@@ -1,68 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-                <link rel="stylesheet" href="stil.css">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-            </head>
-            
-            <body class="bg-secondary ">
-                <div class="container bg-primary">
-            
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position: sticky-top">
-                        <div id="logo">
-            
-                            <div id="crv">
-            
-                            </div>
-                            <div id="zel">
-            
-                            </div>
-                            <div id="pla">
-            
-                            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stil.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-secondary ">
+    <div class="container bg-primary">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position: sticky-top">
+            <div id="logo">
+
+                <div id="crv">
+
+                </div>
+                <div id="zel">
+
+                </div>
+                <div id="pla">
+
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meni" aria-controls="meni"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="meni">
+
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown  ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O meni</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Početna
+                                <ul>
+                                    <li> <a href="#">Knjige</a> </li>
+                                    <li><a href="filmovi.html" class="active">Filmovi</a> </li>
+                                    <li><a href="#">Prevođenje</a></li>
+                                </ul>
+                            </a>
                         </div>
-            
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meni" aria-controls="meni"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-            
-                        <div class="collapse navbar-collapse text-right" id="meni">
-            
-                            <ul class="navbar-nav mr-auto">
-            
-                                <li class="nav-item dropdown  ">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O meni</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="index.html">Početna
-                                            <ul>
-                                                <li> <a href="#">Knjige</a> </li>
-                                                <li><a href="filmovi.html" class="active">Filmovi</a> </li>
-                                                <li><a href="#">Prevođenje</a></li>
-                                            </ul>
-            
-                                        </a>
-                                      
-                                    </div>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="kontakt.html">Kontakt </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="projekti.html">Projekti</a>
-                                </li>
-                            </ul>
-            
-            
-                        </div>
-                    </nav>
-<body>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="kontakt.html">Kontakt </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projekti.html">Projekti</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+        <body>
+                <table class="table table-striped table-primary mt-4">
+                    <tr>
+                        <th>ime filma</th>
+                        <th>originalni naslov</th>
+                        <th>režiser</th>
+                        <th>glavna uloga</th>
+                        <th>zemlja</th>
+                        <th>godina</th>
+                    </tr>
+                    <tr>
+                        <td>Ubiti pticu rugalicu</td>
+                        <td>To Kill a Mockingbird</td>
+                        <td>Robert Maligen</td>
+                        <td>Gregori Pek</td>
+                        <td>SAD</td>
+                        <td>1962.</td>
+                    </tr>
+                    <tr>
+                        <td>Prozor u dvorište</td>
+                        <td>Rear Window</td>
+                        <td>Alfred Hičkok</td>
+                        <td>Džejms Stjuart</td>
+                        <td>SAD</td>
+                        <td>1954.</td>
+                    </tr>
+                    <tr>
+                        <td>Divlje priče</td>
+                        <td>Relatos salvajes</td>
+                        <td>Damijan Sifron</td>
+                        <td>Rikardo Darin</td>
+                        <td>Argentina</td>
+                        <td>2014.</td>
+                    </tr>
+                    <tr>
+                        <td>Kradljivci bicikala</td>
+                        <td>Ladri di biciclette</td>
+                        <td>Vitorio de Sika</td>
+                        <td>Lamberto Mađorani</td>
+                        <td>Italija</td>
+                        <td>1948.</td>
+                    </tr>
+                    <tr>
+                        <td>Moj otac i moj sin</td>
+                        <td>Babam ve Oglum</td>
+                        <td>Čagan Irmak</td>
+                        <td>Četin Tekindor</td>
+                        <td>Turska</td>
+                        <td>2005.</td>
+                    </tr>
+                    <tr>
+                        <td>Mandarine</td>
+                        <td>Mandariinid</td>
+                        <td>Zaza Urušadze</td>
+                        <td>Lembit Ulfsak </td>
+                        <td>Gruzija</td>
+                        <td>2013.</td>
+                    </tr>
+                    <tr>
+                        <td>Ritam ludila</td>
+                        <td>Whiplash</td>
+                        <td>Dejmijan Šazel</td>
+                        <td>Džej-Kej Simons</td>
+                        <td>SAD</td>
+                        <td>2014.</td>
+                    </tr>
+                    <tr>
+                        <td>Dvostruka obmana</td>
+                        <td>Double Indemnity</td>
+                        <td>Bili Vajlder</td>
+                        <td>Fred Mekmari</td>
+                        <td>SAD</td>
+                        <td>1944.</td>
+                    </tr>
     
-</body>
+    
+    
+    
+                </table>
+    
+            </body>
+        </div>
+
+        
+
 </html>

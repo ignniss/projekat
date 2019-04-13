@@ -88,3 +88,7 @@ a, a:visited {
 .btn {
     margin: 20px;
 }
+th, td{
+    color: black;
+    text-align: center;
+}
